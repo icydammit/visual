@@ -273,7 +273,7 @@ local logMessages = {
 }
 
 local function addLog(msg, color)
-    logIndex += 1
+    logIndex = logIndex + 1    
     local line = Instance.new("TextLabel")
     line.Size = UDim2.new(1, 0, 0, 13)
     line.BackgroundTransparency = 1
